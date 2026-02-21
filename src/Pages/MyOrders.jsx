@@ -104,7 +104,7 @@ const MyOrders = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
 
-    fetch("http://localhost:5000/api/orders/", {
+    fetch("https://project-backend-txga.onrender.com/api/orders/", {
       headers: {
         Authorization: token ? `Bearer ${token}` : "",
       },
@@ -300,3 +300,5 @@ const MyOrders = () => {
 };
 
 export default MyOrders;
+
+// http://localhost:5000

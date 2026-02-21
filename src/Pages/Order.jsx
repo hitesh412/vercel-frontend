@@ -7,7 +7,7 @@ const Order = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/orders/${id}`)
+    fetch(`https://project-backend-txga.onrender.com/api/orders/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setOrder(data);
@@ -201,3 +201,5 @@ const Order = () => {
 };
 
 export default Order;
+
+// http://localhost:5000
