@@ -202,4 +202,3 @@ const Order = () => {
 
 export default Order;
 
-// http://localhost:5000
