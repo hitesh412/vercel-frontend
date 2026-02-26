@@ -105,4 +105,3 @@ const Contact = () => {
 
 export default Contact;
 
-// http://localhost:5000/api/contact

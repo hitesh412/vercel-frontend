@@ -306,4 +306,3 @@ const Checkout = () => {
 
 export default Checkout;
 
-// http://localhost:5000
