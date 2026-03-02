@@ -88,9 +88,16 @@ const Navbar = () => {
     </NavLink>
   ) : (
     <div className="flex items-center gap-4">
-      <span className="font-semibold text-gray-800">
+      {/* <span className="font-semibold text-gray-800">
         {user?.name}
-      </span>
+      </span> */}
+      
+             <NavLink
+  to="/profile"
+  className="font-semibold text-gray-800 hover:text-orange-500">
+    {user?.name}
+</NavLink>
+
 
       <button
         onClick={handleLogout}

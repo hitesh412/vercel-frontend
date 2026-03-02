@@ -31,6 +31,8 @@ import ResetPassword from "./Pages/ResetPassword"
 
 import MyOrders from "./Pages/MyOrders"
 
+import Profile from "./Pages/Profile"
+
 
 
 
@@ -95,7 +97,9 @@ function App() {
      <Route path="/reset-password/:token" element={<ResetPassword />} />
      <Route path="/order/:id" element={<Order />} />
      <Route path="/my-orders" element={<MyOrders />} />
+     <Route path="/profile" element={<Profile />} />
      </Route>
+
      
      </Routes> 
      </BrowserRouter>
