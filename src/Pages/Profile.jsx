@@ -18,7 +18,7 @@ const Profile = () => {
         }
 
         const res = await axios.get(
-          "http://localhost:5000/api/profile",
+          "https://project-backend-txga.onrender.com/api/profile",
           {
             headers: {
               Authorization: `Bearer ${token}`,
